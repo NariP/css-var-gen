@@ -32,6 +32,10 @@
     scroll-behavior: smooth;
   }
 
+  body {
+    -webkit-overflow-scrolling: touch;
+  }
+
   a {
     cursor: pointer;
   }
