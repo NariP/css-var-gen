@@ -2,6 +2,16 @@ import { useState } from 'react';
 import { Button, Input, Textarea } from '@headlessui/react';
 import { toast } from 'react-toastify';
 import clipboardCopy from 'clipboard-copy';
+// import OpenAI from 'openai';
+//
+// const openai = new OpenAI({
+//   apiKey: import.meta.env.OPEN_AI_KEY, // This is the default and can be omitted
+// });
+//
+// const chatCompletion = await openai.chat.completions.create({
+//   messages: [{ role: 'user', content: 'Say this is a test' }],
+//   model: 'gpt-3.5-turbo',
+// });
 
 const HomePage = () => {
   const [prefix, setPrefix] = useState('color');
